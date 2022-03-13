@@ -55,7 +55,7 @@ const fillTemplate = function(templateString, templateVars){
 let newCopy = madLibs[0].madLib;
 
 console.log(fillTemplate(newCopy, variableObj));
-/*function setVariables(variableArr, variableObj) {
+function setVariables(variableArr, variableObj) {
   let localVariables = variableArr.slice()
   for (let i of localVariables) {
     for (key in variableObj) {
@@ -71,4 +71,4 @@ console.log(fillTemplate(newCopy, variableObj));
   let variableArr = getVariableArr(randMadLib)
   return setVariables(variableArr, variableObj)
  }
-console.log(returnMadLib(madLibs, variableObj)); */
+console.log(returnMadLib(madLibs, variableObj)); 
