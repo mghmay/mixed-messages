@@ -3,6 +3,7 @@ let vegetable1 = 'Fred';
 let teacherName = 'Fred';
 let girlName1 = 'Fred';
 let vegetable2 = 'Fred';
+let vegetable3 = 'Fred';
 let boyName2 = 'Fred';
 let adjective = 'Fred';
 let number = 'Fred';
@@ -23,7 +24,7 @@ let placeBeginThe = 'Fred';
 const madLibs = {
   madLib1: `Once upon a time there was a little boy named ${boyName1}. He was not like all the other children, because he had a very big secret. Everyday he went to school hoping no one had discovered the truth. You see ${boyName1}'s parents were really ${vegetable1}s. How he turned out to be a normal boy, he didn't know. It was report card time, the trickiest time of the year, because that was when the teachers usually wanted to meet all of the students' parents. Boy always did his best in school so that his parents wouldn't have to meet his teacher.
   This year was no exception, except that ${teacherName} always wanted to meet everyone's parents. Sure enough, at the bottom of his report card, an interview time had been scheduled. Boy was devastated! How would he explain?
-  When he brought his report card home, his parents were excited. Finally they would get to meet one of ${boyName1}'s teachers. That evening ${boyName1} and his parents walked to the school. All the while ${boyName1} was dying inside. How, oh how, would he explain!? Hey, wait a minute! When he looked around he saw ${girlName}'s name, the most popular girl in class and her parents were ${vegetable2} and walking towards the gym was ${boyName2}e and his parents were ${vegetable3}.
+  When he brought his report card home, his parents were excited. Finally they would get to meet one of ${boyName1}'s teachers. That evening ${boyName1} and his parents walked to the school. All the while ${boyName1} was dying inside. How, oh how, would he explain!? Hey, wait a minute! When he looked around he saw ${girlName1}'s name, the most popular girl in class and her parents were ${vegetable2} and walking towards the gym was ${boyName2}e and his parents were ${vegetable3}.
   Wow, what a relief, Boy wasn't so different after all!`,
   madLib2: `Once there was an ${adjective} girl called ${girlName1}. She was ${number} years old. She was so ${emotion} that birds quieted down when she sang. Her mum loved her so much.
   One day she met a boy named ${boyName1}. She lived in ${city}. One day she went down to the ${typeTree} tree in her garden and made a wish. Her mum had a baby and named her ${girlName1}. Her wish came true! `,
@@ -43,5 +44,4 @@ const madLibs = {
   ${girlName1} did these things and she managed to raise £${number} and got to go and see ${popStar} in the end. `
 }
 
-
-console.log(madLibs[0])
+console.log(madLibs)
