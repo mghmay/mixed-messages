@@ -1,4 +1,6 @@
-let boyName1 = 'Fred';
+const prompt = require('prompt-sync')({sigint: true});
+
+let boyName1 = prompt("Enter a boy's name: ");
 let vegetable1 = 'Fred';
 let teacherName = 'Fred';
 let girlName1 = 'Fred';
@@ -19,8 +21,6 @@ let radioStation = 'Fred';
 let time = 'Fred';
 let popStar = 'Fred';
 let placeBeginThe = 'Fred';
-
-
 const madLibs = [
   {madLib1: `Once upon a time there was a little boy named ${boyName1}. He was not like all the other children, because he had a very big secret. Everyday he went to school hoping no one had discovered the truth. You see ${boyName1}'s parents were really ${vegetable1}s. How he turned out to be a normal boy, he didn't know. It was report card time, the trickiest time of the year, because that was when the teachers usually wanted to meet all of the students' parents. Boy always did his best in school so that his parents wouldn't have to meet his teacher.
   This year was no exception, except that ${teacherName} always wanted to meet everyone's parents. Sure enough, at the bottom of his report card, an interview time had been scheduled. Boy was devastated! How would he explain?
@@ -41,7 +41,8 @@ const madLibs = [
   And saw that his dream had come true. `},
   {madLib5: `Once ${girlName1} was listening to ${radioStation} when she heard that ${popStar} would be coming to ${placeBeginThe} but she didn't have any money to go and see ${popStar}.
   So ${girlName1} asked her mom for ideas on how to make some money. Her mom suggested that she should wash people's cars and have a garage sale to get rid of some of her old toys. 
-  ${girlName1} did these things and she managed to raise £${number} and got to go and see ${popStar} in the end. }`
+  ${girlName1} did these things and she managed to raise £${number} and got to go and see ${popStar} in the end. `}
 ]
 
-console.log(madLibs)
+
+
